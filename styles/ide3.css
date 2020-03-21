@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+    font-family: 'Average', serif;
+}
+
+h1 {
+    color: #007acd;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 8%;
+}
+
+header p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #007acd;
+}
+
+nav a {
+    padding: 1.3%;
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid #007acd;
+}
+
+nav a:hover {
+    padding: 1.3%;
+    background-color: white;
+    color: #007acd;
+    border-bottom: 3px solid grey;
+}
+ 
+hr {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid #007acd;
+}
+
+section h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+}
+
+#presentation div img {
+    margin: 2%;
+    box-shadow: 8px 8px 8px #4888b3;
+}
+
+#fonctionnalites {
+    margin-top: 4%;
+}
+
+#fonctionnalites p {
+    margin: 1%;
+}
+
+#fonctionnalites a {
+    text-decoration: none;
+    color: #4888b3;
+    font-weight: bold;
+}
+
+#fonctionnalites a:hover {
+    color: red;
+}
+
+.grandeDiv {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+.grandeDiv div {
+    display: inline-block;
+    width: 30%;
+    padding: 0.5%;
+    margin: 1%;
+    vertical-align: top;
+    
+}
+
+.grandeDiv div:hover {
+    padding: 0.5%;
+    background-color: #4888b3;
+    border-radius: 10px;
+}
+
+#support div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#support p , .logo{
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 2%;
+}
+
+footer p, footer div {
+    width: 50%;
+}
+
+#avis {
+    margin-top: 5%;
+    padding: 3%;
+    background-color: #f7fafb;
+    border-top: 1px solid #4888b3;
+    border-bottom: 1px solid #4888b3;
+}
+
+#telechargement a, #telechargement img {
+    margin: 3%;
+    vertical-align: middle;
+
+}
+
+#telechargement {
+    text-align: center;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+
+#telechargement a {
+    padding: 1.5%;
+    border-radius: 10px;
+    background-color: #4888b3;
+    text-decoration: none;
+    color: white;
+}
+
+#telechargement a:hover {
+    background-color: black;
+    color: #4888b3;
+}
+

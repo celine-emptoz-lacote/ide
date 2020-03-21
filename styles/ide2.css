@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eccdfd81;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header img {
+    width: 15%;
+}
+.header h1 {
+    margin-left: 5%;
+    color: #b443f1;
+}
+
+header p {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: 'Mukta', sans-serif;
+   color: #b443f1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+nav a {
+    padding: 1%;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    color: #ff2d8d;
+}
+
+nav a:hover {
+    padding: 1%;
+    border-bottom: 3px solid #ff2d8d;
+    background-color: #115a91;
+    color: white;
+}
+
+
+h1 {
+    font-size: 40px;
+    color: #ff2d8d;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+}
+
+#presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Mukta', sans-serif;
+}
+#presentation img {
+    width: 300px;
+}
+
+.present1 {
+    width: 50%;
+    margin: 1%;
+}
+
+.present2 {
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+
+.marge {
+    margin-top: 3%;
+}
+
+span {
+    font-weight: bold;
+}
+
+hr {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+   border: 2px solid black;
+}
+
+.fonctionnalite {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fonctionnalite section {
+    width: 30%;
+    min-height: 45%;
+    margin: 3% auto;
+    padding: 10px;
+    background-color: #b443f1;
+    border-radius: 20px 0;
+    box-shadow: 8px 8px 8px #aaa;
+    
+}
+
+#licences , #prix {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 1%;
+    font-family: 'Mukta', sans-serif;
+}
+#avis {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    font-family: 'Mukta', sans-serif;
+}
+
+#telechargement a, #telechargement img {
+    margin: 3%;
+    vertical-align: middle;
+
+}
+
+#telechargement {
+    text-align: center;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+
+#telechargement a {
+    padding: 1.5%;
+    border-radius: 10px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+#telechargement a:hover {
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+}
+footer img {
+    width: 30px;
+}
+
+
