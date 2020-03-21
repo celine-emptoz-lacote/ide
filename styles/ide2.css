@@ -123,6 +123,10 @@ hr {
     font-family: 'Mukta', sans-serif;
 }
 
+.img { 
+    width: 50%;
+}
+
 #telechargement a, #telechargement img {
     margin: 3%;
     vertical-align: middle;
